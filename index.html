@@ -31,15 +31,22 @@
 
 </head>
 
+<!-- ANOTAÇÕES
+col < 567px
+col-sm >= 567px
+col md >= 768px
+col-lg >=  -->
+
+
+
 <body>
 
     <!-- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <header id="header" class="header d-flex align-items-center fixed-top">
 
-        <!--  -->
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <!-- Logo -->   
+            <!-- Logo -->
             <a href="#home" class="logo d-flex align-items-center">
                 <h1 class="sitename"> Bertoli </h1>
             </a>
@@ -49,38 +56,38 @@
             <nav id="navmenu" class="navmenu">
 
                 <ul>
-                    
                     <li>
                         <a href="#home" class="active">Home</a>
                     </li>
-
                     <li>
-                        <a href="#about">Sobre</a>
+                        <a href="#about">
+                            Sobre
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#services">Serviços</a>
+                        <a href="#services">
+                            Serviços
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">
+                            Portfolio
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#team">Equipe</a>
+                        <a href="#team">
+                            Equipe
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#contact">Contato</a>
+                        <a href="#contact">
+                            Contato
+                        </a>
                     </li>
-
                 </ul>
-
-                <i class="mobile-nav-toggle bi bi-list d-xl-none"></i>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
             </nav>
-
-
         </div>
 
     </header>
@@ -161,24 +168,128 @@
                 </a>
                 
             </div>
-
-            
-
-            
-
+         
         </section>
 
         <!-- ABOUT -------------------------------------------------------------------------------------------------------------------------------------------------------->
-        <section id="about" class="about">
+        <section id="about" class="about section">
 
+            <div class="container">
 
+                <div class="row gy-4">
+
+                    <div class="col-lg-6 position-relative">
+
+                        <img src="img/about.jpg" alt="" class="img-fluid">
+                        <a href="https://www.youtube.com/watch?v=aOGFY1R4QQ4" class="glightbox pulsating-play-btn"></a>
+
+                    </div>
+
+                    
+                    <div class="col-lg-6 content ps-lg-4">
+
+                        <h3> About Us</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus necessitatibus voluptatibus quos iure porro, maiores dolore nisi officiis. Fugit quis sunt voluptates? Officia tenetur temporibus maiores, eius nisi voluptates!</p>
+
+                        <ul>
+
+                            <li>
+
+                                <i class="bi bi-diagram-3"></i>
+                                <div>
+                                    <h5>Pilar 1</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum, voluptas totam praesentium soluta, repellat iusto maxime maiores doloremque pariatur itaque error.</p>
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <i class="bi bi-broadcast"></i>
+                                <div>
+                                    <h5>Pilar 2</h5>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum eum natus alias enim exercitationem in ex, libero at voluptatum. Omnis in amet, tenetur exercitationem recusandae numquam. Aspernatur qui voluptatum est?</p>
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <i class="bi bi-fullscreen-exit"></i>
+                                <div>
+                                    <h5>Pilar 3</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, nulla? Inventore veritatis aspernatur qui perspiciatis similique vero earum aperiam incidunt dolorem vitae, fugiat laborum ipsam odit ipsa est ex nihil?</p>
+                                </div>
+
+                            </li>
+                            
+
+                        </ul>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis possimus nemo dolores asperiores, labore, totam laboriosam ex provident nulla maiores omnis repudiandae consequuntur beatae quaerat dignissimos quam, officia a sapiente?</p>
+
+                    </div>
+
+                </div>
+
+            </div>            
 
         </section>
 
         <!-- STATS -------------------------------------------------------------------------------------------------------------------------------------------------------->
-        <section id="stats" class="stats">
+        <section id="stats" class="stats section light-background">
 
+            <div class="container">
 
+                <div class="row gy-4">
+
+                    <!-- Objeto 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        
+                        <div class="stats-item">
+
+                            <i class="bi bi-emoji-smile"></i>
+                            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="5761" data-purecounter-duration="1.5"></span>
+                            <p>
+                                <strong>
+                                    Satisfeitos   
+                                </strong>
+
+                                <span>
+                                    Clientes
+                                </span>
+                                
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Objeto 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        
+                        Teste
+
+                    </div>
+
+                    <!-- Objeto 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        
+                        Teste
+
+                    </div>
+
+                    <!-- Objeto 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        
+                        Teste
+
+                    </div>
+                    
+                </div>
+
+            </div>
 
         </section>
 
@@ -230,10 +341,7 @@
 
         <i class="bi bi-arrow-up-short"></i>
 
-    </a>
-        
-            
-            
+    </a>            
         
     <!-- Link Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
