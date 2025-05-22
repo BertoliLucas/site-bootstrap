@@ -509,7 +509,7 @@ section,
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
-  scroll-margin-top: 40px;
+  scroll-margin-top: 90px;
 }
 
 @media (max-width: 1199px) {
@@ -553,10 +553,6 @@ section,
 .section-title div .description-title {
   color: #428bca;
 }
-
-
-
-
 
 /* Sobre */
 
@@ -683,11 +679,9 @@ section,
   }
 }
 
-
-/* --------------------
-#Stats
------------------------ */
-
+/* ------------------
+# STATS 
+------------------------- */
 .stats .stats-item {
   padding: 30px;
   width: 100%;
@@ -696,9 +690,8 @@ section,
 .stats .stats-item i {
   color: var(--accent-color);
   display: block;
-  font-size: 50px;
+  font-size: 44px;
   float: left;
-
 }
 
 .stats .stats-item .purecounter {
@@ -707,4 +700,47 @@ section,
   display: block;
   font-weight: 700;
   margin-left: 60px;
+}
+
+/* ---------------------------------------
+# Services Section 
+------------------------------------------ */
+
+/* ---------------------------------------
+# Scroll Top
+------------------------------------------ */
+
+.scroll-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999999;
+  background-color: var(--accent-color);
+  height: 45px;
+  width: 45px;
+  border-radius: 7px;
+  transition: all .7s;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.scroll-top i {
+  color: white;
+  font-size: 30px;
+}
+
+.scroll-top:hover{
+  background-color: #295e8d;
+}
+
+.scroll-top:hover i {
+  color: white;
+  font-size: 50px;
+  transition: all .3s ease-in-out;
 }
