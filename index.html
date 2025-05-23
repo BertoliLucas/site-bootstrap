@@ -33,10 +33,12 @@
 </head>
 
 <!-- ANOTAÇÕES
-col < 567px
 col-sm >= 567px
 col md >= 768px
-col-lg >=  -->
+col-lg >= 992px  
+col xl >= 1200px 
+col xxl >= 1400px
+-->
 
 
 
@@ -539,9 +541,9 @@ col-lg >=  -->
         <!-- CALL_TO_ACTION -------------------------------------------------------------------------------------------------------------------------------------------------------->
         <section id="call-to-action" class="call-to-action dark-background section">
 
-            <div class="cta-bg">
-                <img src="img/cta-bg.jpg" alt="">
-            </div>
+   
+            <img src="img/cta-bg.jpg" alt="">
+
 
             <div class="container">
 
@@ -574,7 +576,53 @@ col-lg >=  -->
         <!-- PORTFOLIO -------------------------------------------------------------------------------------------------------------------------------------------------------->
         <section id="portfolio" class="portfolio">
 
+            <div class="container section-title" data-aos="fade-up">
 
+                <h2> portfolio </h2>
+
+                <div>
+
+                    <span>
+                        Confira os nossos
+                    </span>
+
+                    <span class="description-title">
+                        Produtos
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="container-fluid">
+
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                    <!-- Menu Filtro -->
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up">
+
+                        <li class="filter-active" data-filter="*"> Todos </li>
+                        <li data-filter=".filter-app"> APPs </li>
+                        <li data-filter=".filter-front"> Front-End </li>
+                        <li data-filter=".filter-back"> Back-end </li>
+                        <li data-filter=".filter-bd"> Banco de Dados </li>
+
+                    </ul>
+
+                    <div class="row g-0 isotope-container">
+
+                        <!-- Foto 1 -->
+                        <article class="col-xl-3 col-lg-4 col-md-6 isotope-item filter-back">
+                            
+                        
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 

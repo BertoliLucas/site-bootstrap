@@ -389,7 +389,7 @@ h6 {
 
 .hero .carousel-item::before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 35%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -771,7 +771,7 @@ section,
 ------------------------------------------ */
 
 .call-to-action {
-  padding: 130px 0;
+  padding: 150px 0;
   position: relative;
   clip-path: inset(0);
 }
@@ -787,12 +787,7 @@ section,
   object-fit: cover;
 }
 
-.call-to-action .container {
-  position: relative;
-  z-index: 3;
-}
-
-.call-to-action .cta-bg::before {
+.call-to-action::before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 35%);
   position: absolute;
@@ -800,20 +795,43 @@ section,
   z-index: 2;
 }
 
+
+.call-to-action .container {
+  position: relative;
+  z-index: 3;
+}
+
+.call-to-action h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px #060606;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
 .call-to-action .cta-btn {
   justify-content: center;
   align-items: center;
   background: transparent;
-  border: 1px solid white;
+  border: 1.5px solid white;
   border-radius: 7px;
-  padding: 8px 10px;
+  padding: 12px 40px;
   color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+  transition: all .3s ease-in-out;
+  display: inline-block;
 }
 
 .call-to-action .cta-btn:hover {
   background: #075e54;
-  border: transparent;
-  transition: all .3s ease-in-out;
+  border: 1.5px solid #075e54;
 }
 
 /* ---------------------------------------
@@ -833,6 +851,7 @@ section,
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
+  box-shadow: 4px 4px 6px #6cabe2;
 }
 
 .scroll-top.active {
@@ -846,11 +865,11 @@ section,
 }
 
 .scroll-top:hover{
-  background-color: #295e8d;
+  background-color: #37a2ff;
 }
 
 .scroll-top:hover i {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   transition: all .3s ease-in-out;
 }
