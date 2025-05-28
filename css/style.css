@@ -879,7 +879,7 @@ section,
   padding: 15px;
   transition: all .3s ease-in-out;
   opacity: 0;
-  background:#06060641; 
+  background:#06060665; 
 }
 
 .portfolio .portfolio-content:hover img {
@@ -895,6 +895,11 @@ section,
   left: calc(50% - 40px);
   top: calc(50% - 14px);
   line-height: 1.2;
+}
+
+.portfolio .portfolio-content .portfolio-info .preview-link:hover,
+.portfolio .portfolio-content .portfolio-info .details-link:hover {
+  color: #428bca;
 }
 
 .portfolio .portfolio-content .portfolio-info .details-link {
