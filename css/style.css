@@ -912,6 +912,90 @@ section,
   opacity: 1;
 }
 
+/* ----------------------------------------
+#Feedback
+------------------------------------------- */
+
+.feedbacks .feedback-item {
+  background-color: white;
+  box-shadow: 0px 2px 5px 5px rgba(4, 4, 4, 0.228);
+  padding: 30px;
+  position: relative;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.feedbacks .feedback-item .feedback-img {
+  width: 90px;
+  border-radius: 50px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.feedbacks .feedback-item h3 {
+  font-size: 18px;
+  color: #262626;
+  margin: 10px 0 5px 0;
+}
+
+.feedbacks .feedback-item h4 {
+  font-size: 14px;
+  color: #262626ad;
+  margin: 0;
+}
+
+.feedbacks .feedback-item .stars {
+  margin: 8px 0;
+}
+
+.feedbacks .feedback-item .stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
+
+.feedbacks .feedback-item .quote-icon-left,
+.feedbacks .feedback-item .quote-icon-right{
+  color: #428bca;
+  font-size: 20px;
+  line-height: 0;
+}
+
+.feedbacks .feedback-item .quote-icon-left {
+  position: relative;
+  left: -5px;
+  display: inline-block;
+}
+
+.feedbacks .feedback-item .quote-icon-right {
+  position: relative;
+  right: -5px;
+  display: inline-block;
+  transform: scale(-1);
+}
+
+.feedbacks .feedback-item p {
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+
+/* ----------------------------------------
+#TEAM
+---------------------------------------- */
+
+.team .member {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  transition: all .2s ease-in;
+}
+
+
 
 /* ---------------------------------------
 # Scroll Top
