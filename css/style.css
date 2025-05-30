@@ -918,11 +918,11 @@ section,
 
 .feedbacks .feedback-item {
   background-color: white;
-  box-shadow: 0px 2px 5px 5px rgba(4, 4, 4, 0.228);
+  box-shadow: 0px 2px 5px 5px rgba(4, 4, 4, 0.098);
   padding: 30px;
   position: relative;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .feedbacks .feedback-item .feedback-img {
@@ -995,6 +995,64 @@ section,
   transition: all .2s ease-in;
 }
 
+.team .member .member-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  transition: bottom .4s;
+}
+
+.team .member .member-info-content h4 {
+  color: rgba(255, 255, 255, 0.701);
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.team .member .member-info-content span {
+  color: rgba(255, 255, 255, 0.701);
+  font-size: 13px;
+  font-style: italic;
+  display: block;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -38px;
+  height: 48px;
+  transition: bottom ease-in-out .4s;
+  font-size: 18px;
+}
+
+.team .member .social a {
+  color: rgba(255, 255, 255, 0.701);
+  display: inline-block;
+  margin: 0 10px;
+  transition: color .3s;
+}
+
+.team .member .social a:hover {
+  color: white;
+}
+
+.team .member:hover .member-info {
+  opacity: 1;
+  transition: .4s;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(225, 225, 225, 0) 100%);
+}
+
+.team .member:hover .member-info-content {
+  bottom: 60px;
+  transition: bottom .4s;
+}
+
+.team .member:hover .social {
+  bottom: 0;
+  transition: bottom ease-in-out .4s;
+}
 
 
 /* ---------------------------------------
